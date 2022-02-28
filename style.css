@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    src: url(/fonts/open-sans-v27-latin-800.woff2) format("woff2"),
+         url(/fonts/open-sans-v27-latin-800.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/open-sans-v27-latin-regular.woff2) format("woff2"),
+         url(/fonts/open-sans-v27-latin-regular.woff) format("woff");
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    min-width: 1440px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.how-it-works {
+    background-color: #fff6ed;
+}
+
+.question-heading {
+    margin: 0;
+    padding-top: 60px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54.47px; 
+    letter-spacing: 0.9px;
+}
+
+.question-heading_center {
+    text-align: center;
+}
+
+.svg-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 58px 42px 57px;
+}
+
+.svg-block__morning-coffee,
+.svg-block__hour-of-meditation,
+.svg-block__forward-to-achievements {
+    width: 375px;
+}
+
+svg.svg-img {
+    display: block;
+    width: 375px;
+    height: 288px;
+}
+
+.svg-block__heading {
+    margin: 17px 0 6px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40.85px;
+    letter-spacing: 0.8px;
+}
+
+.color {
+    color:#FF7A00;
+}
+
+.description {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.integration-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 58px 24px 57px;
+}
+
+.block-left {
+    width: 592px;
+}
+
+.question-heading_left {
+    padding-top: 36px;
+    padding-bottom: 11px;
+}
+
+.block-right {
+    width: 662px;
+    background-image: url(img-svg/semi-circle.png);
+    background-size: 550px 275px;
+    background-repeat: no-repeat;
+}
+
+.block-right_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 550px;
+    margin: 0;
+    margin-left: auto;
+    padding: 69px 0 36px 0;
+    list-style-type: none;
+}
+
+.list {
+    margin-right: 90px;
+    margin-bottom: 30px;
+}
+
+.list:nth-child(4) {
+    margin-right: 0;
+}
+
+.list:nth-child(5) {
+    margin-left: 70px;
+}
+
+.hidden {
+    display: none;
+}
